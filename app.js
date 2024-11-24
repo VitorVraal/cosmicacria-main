@@ -16,7 +16,7 @@ function showProductDetails(productId) {
     const productDetails = {
       produto1: {
         titulo: 'Mochilas',
-        descricao: 'Feita a partir de tecidos reciclidados,uma história que vale a pena ser lembrada.',
+        descricao: 'Feita a partir de tecidos reciclados,uma história que vale a pena ser lembrada.',
         imagens: ['produtos/mochila up chefron (2).jpg', 'produtos/mochila3.JPEG', 'produtos/mochila4.JPEG', 'produtos/mochila5.JPEG', 'produtos/mochila6.jpg', 'produtos/mochila7.jpg', 'produtos/mochila8.JPEG', 'produtos/mochilaazul.JPEG', 'produtos/MochilaCam.JPG', 'produtos/MochilaJ.jpg', 'produtos/MochilaK.JPG', 'produtos/Mochilas.JPEG', 'produtos/MochilaZ.JPEG'], 
         linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=696055'
       },
