@@ -141,23 +141,36 @@ main {
 }
 
 
+
 .alexia {
   display: flex;
-  justify-content: center; 
-  align-items: center;    
-  height: 100vh;  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap; /* Para imagens se ajustarem em dispositivos menores */
+  padding: 10px; /* Evita que as imagens encostem nas bordas */
 }
 
 .alexia > img {
   width: 31.25vw;
+  max-width: 100%; /* Garante que a largura não exceda o container */
+  height: auto; /* Mantém a proporção da imagem */
   margin: 10px;
   border-radius: 5px;
+  object-fit: cover; /* Garante que a imagem se ajuste sem distorções */
 }
 
-.alexia > img:hover  {
-  flex-grow: 0.3;
-  transition: 300ms;
+.alexia > img:hover {
+  transform: scale(1.1); /* Faz a imagem crescer suavemente */
+  transition: transform 300ms;
 }
+
+@media (max-width: 768px) { /* Responsivo para dispositivos móveis */
+  .alexia > img {
+    width: 70vw; /* Aumenta o tamanho das imagens em telas menores */
+  }
+}
+
 
 #contato > img {
   width: 31.25vw;
