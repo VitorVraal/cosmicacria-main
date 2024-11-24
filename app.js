@@ -26,10 +26,10 @@ function showProductDetails(productId) {
         imagens: ['produtos/BagDeFrente.JPG', 'https://s2.ezgif.com/tmp/ezgif-2-dd43f26cd2.jpg', 'https://s2.ezgif.com/tmp/ezgif-2-7c1e0898dd.jpg','https://s2.ezgif.com/tmp/ezgif-2-6a2b070807.jpg', 'https://s2.ezgif.com/tmp/ezgif-2-24c031eaa7.jpg', 'https://s2.ezgif.com/tmp/ezgif-2-f8076f2eb1.jpg', 'https://s2.ezgif.com/tmp/ezgif-2-479b483a7d.jpg','https://s5.ezgif.com/tmp/ezgif-5-185e041286.jpg', 'https://s5.ezgif.com/tmp/ezgif-5-a48b1df468.jpg' ],
         linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=738230'
       },
-      produto3: {
+     produto3: {
         titulo: 'Pochetes',
         descricao: 'Pochetes CosmicaCria, feitas de materiais reciclados, combinam estilo, praticidade e sustentabilidade em um único acessório.',
-        imagens: ['produtos/pochete2.JPG', 'produtos/pochete3.JPG'],
+        imagens: ['produtos/pochete2.JPG', 'https://s5.ezgif.com/tmp/ezgif-5-081e52925d.jpg', 'https://s5.ezgif.com/tmp/ezgif-5-a568f8bf9b.jpg', 'https://s5.ezgif.com/tmp/ezgif-5-8a21292ad5.jpg', 'https://s3.ezgif.com/tmp/ezgif-3-7a7df2f106.jpg', 'https://s3.ezgif.com/tmp/ezgif-3-a555aac1cb.jpg', 'https://s3.ezgif.com/tmp/ezgif-3-a5e4b8ee5d.jpg'],
         linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=696056'
       }
     };
