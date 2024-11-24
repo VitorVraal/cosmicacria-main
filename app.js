@@ -20,10 +20,10 @@ function showProductDetails(productId) {
         imagens: ['produtos/mochila up chefron (2).jpg', 'produtos/mochila3.JPEG', 'produtos/mochila4.JPEG', 'produtos/mochila5.JPEG', 'produtos/mochila6.jpg', 'produtos/mochila7.jpg', 'produtos/mochila8.JPEG', 'produtos/mochilaazul.JPEG', 'produtos/MochilaCam.JPG', 'produtos/MochilaJ.jpg', 'produtos/MochilaK.JPG', 'produtos/Mochilas.JPEG', 'produtos/MochilaZ.JPEG'], 
         linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=696055'
       },
-      produto2: {
+     produto2: {
         titulo: 'Bags',
         descricao: 'A bag CosmicaCria é feita com materiais reciclados, unindo sustentabilidade e estilo. Prática e versátil, ela é perfeita para quem busca um acessório único, funcional e consciente. Carregue não só suas coisas, mas também uma história com cada peça.',
-        imagens: ['produtos/BagDeFrente.JPG', 'produtos/BagLateral.JPG'],
+        imagens: ['produtos/BagDeFrente.JPG', 'https://s2.ezgif.com/tmp/ezgif-2-dd43f26cd2.jpg', 'https://s2.ezgif.com/tmp/ezgif-2-7c1e0898dd.jpg','https://s2.ezgif.com/tmp/ezgif-2-6a2b070807.jpg', 'https://s2.ezgif.com/tmp/ezgif-2-24c031eaa7.jpg', 'https://s2.ezgif.com/tmp/ezgif-2-f8076f2eb1.jpg', 'https://s2.ezgif.com/tmp/ezgif-2-479b483a7d.jpg','https://s5.ezgif.com/tmp/ezgif-5-185e041286.jpg', 'https://s5.ezgif.com/tmp/ezgif-5-a48b1df468.jpg' ],
         linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=738230'
       },
       produto3: {
