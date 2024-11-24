@@ -167,7 +167,7 @@ main {
 
 @media (max-width: 768px) { /* Responsivo para dispositivos móveis */
   .alexia > img {
-    width: 70vw; /* Aumenta o tamanho das imagens em telas menoress */
+    width: 70vw; /* Aumenta o tamanho das imagens em telas menores */
   }
 }
 
