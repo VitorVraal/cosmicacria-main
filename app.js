@@ -29,7 +29,7 @@ function showProductDetails(productId) {
       produto3: {
         titulo: 'Pochetes',
         descricao: 'Pochetes CosmicaCria, feitas de materiais reciclados, combinam estilo, praticidade e sustentabilidade em um único acessório.',
-        imagens: ['produtos/pochete2.JPG', 'produtos/pochete3.JPG'],
+        imagens: ['produtos/pochete2.JPG', 'produtos/pochete3.JPEG'],
         linkCompra: 'https://cosmicaupcycle.offstore.me/shop?tagId=696056'
       }
     };
