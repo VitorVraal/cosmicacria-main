@@ -141,23 +141,55 @@ main {
 }
 
 
+
 .alexia {
   display: flex;
-  justify-content: center; 
-  align-items: center;    
-  height: 100vh;  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap; /* Permite que as imagens se reorganizem em telas menores */
+  padding: 10px;
+  overflow: hidden; /* Garante que o conteúdo não "vaze" do container */
+  box-sizing: border-box; /* Inclui padding e bordas no tamanho total do elemento */
 }
 
 .alexia > img {
   width: 31.25vw;
+  max-width: 100%;
+  height: auto;
+  max-height: 90%; /* Garante que a imagem não ultrapasse o espaço vertical */
   margin: 10px;
   border-radius: 5px;
+  object-fit: cover; /* Ajusta a imagem sem distorcer */
+  flex-shrink: 0; /* Evita que a imagem encolha */
 }
 
-.alexia > img:hover  {
-  flex-grow: 0.3;
-  transition: 300ms;
+.alexia > img:hover {
+  transform: scale(1.1); /* Faz a imagem crescer suavemente */
+  transition: transform 300ms;
 }
+
+/* Ajuste específico para a segunda imagem */
+.alexia > img:nth-child(2) {
+  max-height: 85%; /* Limita a altura da segunda imagem */
+  flex-shrink: 1; /* Permite algum ajuste para caber no layout */
+}
+
+/* Responsivo para dispositivos móveis */
+@media (max-width: 768px) {
+  .alexia > img {
+    width: 70vw;
+    max-height: 70%; /* Ajusta a altura em telas menores */
+  }
+
+  .alexia > img:nth-child(2) {
+    width: 65vw; /* Reduz a largura da segunda imagem */
+    max-height: 65%; /* Evita que ultrapasse o espaço vertical */
+    margin: 10px auto; /* Centraliza a segunda imagem */
+  }
+}
+
+
 
 #contato > img {
   width: 31.25vw;
